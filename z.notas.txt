@@ -1,0 +1,7 @@
+rm -rf name_project (comando para eliminar un proyecto de Laravel)
+
+1. composer require guzzlehttp/guzzle
+"guzzle es un paquete que hace de cliente de peticiones API REST"
+doc oficial -> https://laravel.com/docs/9.x/http-client#main-content 
+
+Livewire es la manera que han sacado en Laravel para hacer componentes reactivos como tienen React, Vue o Angular sin aprender JavaScript; utilizando PHP y Blade

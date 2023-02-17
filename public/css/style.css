@@ -1,0 +1,120 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* display */
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+}
+
+/* flex properties */
+.justify-between {
+    justify-content: space-between;
+}
+
+/* width */
+.w-30 {
+    width: 30%;
+}
+.w-60 {
+    width: 60%;
+}
+
+/* padding */
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.px-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* margin */
+.m-4 {
+    margin: 4rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+/* border */
+.border {
+    border: 1px solid var(--black);
+}
+
+/* border radius */
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+/* font size */
+.fs-1 {
+    font-size: 6rem;
+}
+.fs-2 {
+    font-size: 5rem;
+}
+.fs-3 {
+    font-size: 4rem;
+}
+.fs-4 {
+    font-size: 3rem;
+}
+.fs-5 {
+    font-size: 2rem;
+}
+.fs-6 {
+    font-size: 1rem;
+}
+
+/* background-color */
+.bg-black {
+    background-color: #000000;
+}
+.bg-blue-700 {
+    background-color: blue;
+    opacity: .7;
+}
+
+/* text-color */
+.text-white {
+    color: #fff;
+}
+
+/* utilities */
+.cursor-pointer {
+    cursor: pointer;
+}
